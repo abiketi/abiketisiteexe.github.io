@@ -1,0 +1,931 @@
+@import url('https://fonts.googleapis.com/css2? family= Abril+Fatface & family= Montserrat & family= Roboto:wght@500 & display=swap');
+
+img {
+max-width: 100%;
+height: auto;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+     background: #002060; 
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+ /* ********************home*************************************** */
+header.home {
+    color: #ffffff;
+    text-align: center;
+    height: 90vh;
+ background: url("../images/1920_photovoltaic-2138992-1920.jpg") ;height: 606px; 
+background-position: bottom; 
+background-repeat: no-repeat;
+animation: navigation 40s infinite;
+}
+ @keyframes navigation {
+   25%{
+       background: url("../images/1920_photovoltaic-2138992-1920.jpg"); background-position: bottom;
+   } 
+   50%{
+       background: url("../images/windmills-g16b3ab3ce_1920\ P1.1.jpg"); background-position: bottom;
+   } 
+   75%{
+       background: url("../images/Cooling_towers_of_Dukovany_NuclearP1.2.JPG"); background-position: bottom;
+   }
+   100%{
+       background: url("../images/wind-turbines-g8d1ed57a5_1920.jpg"); background-position: bottom;
+   }
+   
+ }
+    
+
+
+ header nav{
+         background: #FF5B1B; 
+        position: fixed;
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     padding: 19.5px;
+     height: 70px;
+     width: 98%;  
+    
+    }
+    nav.navigation{
+        width: 100%;
+    }
+    div.onglets{
+        margin-right: 40px;
+    }
+
+    header nav a{
+        color: #ffffff;
+         text-decoration: none; 
+         margin-right: 10px;  
+         font-size: 1.2rem;
+      
+    }
+    div.onglets a:hover {
+        color: #002060;
+        border-bottom: 1px solid #2E6BE6;
+       
+    }
+    
+    div.logo {
+        height: 55px;
+        background-color: #fdfafa;
+        border-radius: 15px;
+        
+        
+    }
+    div.logo img{
+        height: 85px;
+        margin-top: -5px;
+    }
+    
+   div.sidebar{
+     
+      background-color: #2E6BE6; 
+      width: 14%;
+      height: 505px;
+       color: #002060;
+     padding-top: 100px;
+   }
+   .sidebar a{
+      
+       text-decoration: none;
+       font-size: 1.1rem;
+       letter-spacing: 1.5px;
+      display: list-item; 
+    text-align: left;
+    color: #ffffff;
+    padding: 20px;
+    border-top: 1px solid #FF5B1B;
+    border-bottom: 1px solid #FF5B1B;
+   }
+   .sidebar a:hover{
+       background-color: #FF5B1B;
+       transition: 1s;
+       letter-spacing: 2px;
+       text-transform: uppercase;
+       
+   }
+   div.the_title{
+     margin-top: 200px;
+     justify-content: center;
+   }
+
+   section.big_title{
+       color: #FF5B1B;
+       justify-content: center;
+       margin-top: -500px;
+       text-transform: uppercase;
+       font-size: 1.5rem;
+   }
+        
+
+    /* µµµµµµµµµµµµµµµµµµµµµµµµµ our vision************************************* */
+
+
+    
+
+
+section.philosophie{
+  display: flex; 
+  flex-wrap: wrap;
+  justify-content: space-around;
+ margin-top: 120px;
+ padding: 30px;
+ 
+}
+ .philosophie .gauche1{
+ width: 50%; 
+
+}
+.gauche1 h3{
+    color: #FF5B1B;
+    font-size: 1.4rem;
+    
+}
+ .gauche1 p{
+    color: #ffffff;
+    font-size: 1.2rem;
+
+}  
+
+ /* **************************** priorité*********************** */
+
+   section.priorité{
+       display: flex;
+       flex-wrap: wrap;
+      padding: 30px; 
+       margin-top: 120px;
+       justify-content: space-around;
+     
+   }
+.priorité .droite2{
+    width: 50%;
+}
+
+   .droite2 h3{
+       color: #FF5B1B;
+       text-transform: uppercase;
+       /* margin-left: 105px; */
+       font-size: 1.4rem;
+   }
+   .droite2 p{
+       color: #ffffff;
+       /* margin-left: 105px; */
+       font-size: 1.2rem;
+   }
+
+   /* ************************transition************************************** */
+   section.transition{
+       display: flex;
+       flex-wrap: wrap;
+        padding: 30px; 
+       margin-top: 120px;
+       justify-content: space-around;
+   }
+
+   .transition .droite3{
+    width: 50%;
+   }
+
+   .droite3 h3{
+       color: #FF5B1B;
+       text-transform: uppercase;
+       font-size: 1.4rem;
+   }
+   .droite3 p{
+       color: #ffffff;
+       font-size: 1.2rem;
+   }
+
+   /* *************************techno******************************* */
+   section.techno{
+       display: flex;
+       flex-wrap: wrap;
+         padding: 30px;  
+       justify-content: space-around;
+       padding-top: 120px;  
+       }
+
+       div.droite4{
+             width: 50%;  
+       }
+
+       .droite4 h3{
+        color: #FF5B1B;
+        text-transform: uppercase;
+        font-size: 1.4rem;  
+       }
+       .droite4 p{
+        color: #ffffff;
+        font-size: 1.2rem;
+       }
+
+       /* ******************************a propos************************* */
+
+       section.a_propos{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 30px;
+        margin-top: 120px;
+        justify-content: space-around;
+       }
+.a_propos .droite5{
+    width: 50%;
+}
+
+       .droite5 h3{
+        color: #FF5B1B;
+        text-transform: uppercase;
+        font-size: 1.4rem;  
+          
+       }
+       .droite5 p{
+        color: #ffffff;
+        margin-right: 105px;
+        font-size: 1.2rem;  
+       }
+
+       /* *******************************investissement****************************** */
+
+       section.investissement{
+        display: flex;
+     
+         padding: 30px;
+        margin-top: 40px;   
+       }
+
+
+      .textes h3{
+        color: #FF5B1B;
+        text-transform: uppercase;
+        font-size: 1.4rem; 
+      }
+      .textes p{
+        color: #ffffff;
+        font-size: 1.2rem;  
+      }
+      div.textes{
+        margin-left: 30px;
+        margin-right: 30px;
+        margin-top: -5px;
+      }
+
+      /* **********************nous retrouver******************************* */
+div.paragraphe{
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    color: #FF5B1B;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    margin-top: 40px;
+    margin-bottom: 5px;
+  
+}
+
+      section.nous_retrouver{
+          display: flex;
+          flex-wrap: wrap;
+          padding: 30px;
+          margin-top: 40px;
+          background-color: #fdfafa;
+          justify-content: space-between;
+          font-weight: bold;
+          font-size: 1.2rem;
+
+      }
+
+      /* ********************************sur la carte********************** */
+       div.plan{
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+      } 
+      div.carte{
+          justify-content: center;
+        color: #FF5B1B;
+        font-size: 1.4rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-top: 40px;
+        margin-bottom: 5px;
+        margin-left: 15px;
+      } 
+      /* ****************************formulaire contact**************************** */
+
+      *{
+          margin: 0;
+          padding: 0;
+          font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      }
+      .formulaire_contact{
+     background-color: black;
+        background-size: cover;
+        padding: 40px;
+        margin-top: 50px;
+      }
+       
+      .formulaire_contact h1{
+          text-align: center;
+          color: #FF5B1B;
+          text-transform: uppercase;
+      }
+
+      .border{
+          width: 100px;
+          height: 10px;
+          background: #2E6BE6;
+          margin: 40px auto;
+      }
+      .contact-form{
+          max-width: 600px;
+          margin: auto;
+          padding: 0px 10px;
+          overflow: hidden;
+
+      }
+      .contact-form-text{
+          display: block;
+          width: 100%;
+          box-sizing: border-box;
+          margin: 16px 0;
+          border: 0;
+          color: #FF5B1B;
+          padding: 20px 40px;
+          outline: none;
+          color: #002060;
+          transition: 0.5s;
+          font-size: 1.2rem;
+      }
+      .contact-form-text:hover{
+          box-shadow: 0 0 10px 4px #FF5B1B;
+      }
+       textarea.contact-form-text{
+          resize: none;
+          height: 120px;
+      } 
+
+      .contact-form-btn{
+          float: right;
+          border: 0;
+          background: #2E6BE6;
+          color: #ffffff;
+          padding: 12px 50px;
+          border-radius: 20px;
+          cursor: pointer;
+          transition: 0.5s;
+          margin: 15px;
+      }
+      .contact-form-btn:hover{
+          background:#FF5B1B;
+      }
+
+
+/* ****************************page technologie***************************** */
+
+.wrapper{
+    margin: 0 auto;
+     /* position: relative; */ 
+}
+.banner h1{
+
+   text-align: right;
+
+}
+
+.banner a{
+ text-decoration: none; 
+    font-size: 1rem;
+    letter-spacing: 1.5px;
+  display: flex;
+  flex-wrap: wrap;
+ /* text-align: center;  */
+ color: #ffffff;
+ padding: 20px; 
+ padding-top: 40px;
+ height: 44px;
+ border-top: 1px solid #FF5B1B;
+ border-bottom: 1px solid #FF5B1B;  
+ background: #2E6BE6;
+ width: 140px;
+
+}
+.sidebare_techno a{
+   margin-right: 1080px;
+   font-weight: normal;
+}
+.banner a:hover{
+    background-color: #FF5B1B;
+    transition: 1s;
+    letter-spacing: 2.5px;
+    text-transform: uppercase 
+}
+
+div.the_titlet{
+     
+    color: #FF5B1B;
+    margin-left: 350px;
+    padding-top: 150px;
+font-weight: bold;
+}
+
+
+
+ header.technologie{
+    display: flex;
+    flex-wrap: wrap;
+      background: url("../images/Flat\ Engine.jpg"); width: auto; 
+    background-position: top;
+  height: 700px; 
+} 
+/* div.TITRE_PRINCIPAL2 h1{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: center;
+    color: #ffffff;
+} */
+
+ div.title{
+    display: flex;
+   justify-content: center;
+    color: #FF5B1B;
+    padding-top: 140px;
+    padding-bottom: 30px;
+} 
+
+   section.technologie{
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-around;
+       margin: 30px;
+       padding-top: 120px;
+       
+       }
+    
+       .com_cycle h2{
+           text-transform: uppercase;
+       }
+
+   div.com_cycle{
+       color: #2E6BE6;
+      width: 50%;
+     justify-content: space-around;
+     }
+    .com_cycle p{
+       color: #ffffff; 
+       font-size: 1.2rem;
+       padding-top: 10px;
+    }
+ 
+
+     section.rankine{
+         display: flex;
+         flex-wrap: wrap;
+          flex-direction: row-reverse; 
+          padding-top: 120px; 
+         justify-content: space-around;
+         width: 100%;
+         margin-left: auto;
+         margin-right: auto;
+        
+     }
+     div.t_rankine h2{
+     color: #2E6BE6;
+     }
+
+     div.t_rankine p{
+         color: #ffffff;
+         font-size: 1.2rem;
+         padding-top: 10px;
+     }
+
+
+     div.rankine_img{
+     
+     }
+     li.img_rank1{
+    padding-bottom: 10px;
+     } 
+     
+    div.publications{
+      margin-left:  30px;
+      margin-right: 30px;
+      padding-top: 15px;
+      color: #ffffff;
+      font-size: 1.2rem;
+    }
+
+    
+
+     section.split{
+         display: flex;
+         flex-wrap: wrap;
+         padding-top: 120px;
+         justify-content: space-around;
+     }
+
+     li.img_split2{
+          padding-top: 30px; 
+     }
+     div.s_cycle{
+         
+          color: #ffffff;
+          text-align: left;
+     }
+     .s_cycle h2{
+         padding-bottom: 10px;
+         color: #2E6BE6;
+     }
+     .s_cycle p{
+         font-size: 1.2rem;
+     }
+      section.t_acoustic{
+          display: flex;
+          flex-wrap: wrap;
+          padding-top: 120px;
+          justify-content: space-around;
+      }
+      div.t_thermo{
+        
+          font-size: 1.2rem;
+          color: #ffffff;
+          text-align: left;
+      }
+ul.img_acoustic{
+  
+}
+
+.t_thermo h2{
+    padding-bottom: 10px;
+    color: #2E6BE6;
+}
+li.img_acoustic1{
+    padding-bottom: 20px;
+}
+div.patents{
+    padding-top: 20px;
+    color: #ffffff;
+    font-size: 1.2rem;
+  text-align: center;
+  margin: 30px;
+   }
+
+   section.stirling{
+       display: flex;
+       flex-wrap: wrap;
+      padding-top: 120px;
+      justify-content: space-around;
+   }
+   div.t_stirling{
+       font-size: 1.2rem;
+       color: #ffffff;
+       text-align: left;
+      
+   }
+   
+   li.s_img1{
+       margin-bottom: 20px;
+   }
+   li.s_img2{
+    margin-bottom: 20px;  
+   }
+   .t_stirling h2{
+       margin-bottom: 10px;
+       color: #2E6BE6;
+       
+   }
+   div.patent1{
+       text-align: center;
+       margin: 30px;
+       padding-top: 20px;
+       color: #ffffff;
+   }
+
+   div.TE_GENERAT{
+       display: flex;
+       flex-wrap: wrap;
+       padding-top: 120px;
+       justify-content: space-around;
+   }
+   div.txt1_generators{
+       }
+   div.img_thermo{
+   }
+   div.txt1_generators p{
+       font-size: 1.2rem;
+       padding-top: 20px;
+       text-align: left;
+       color: #ffffff;
+   }
+   div.txt1_generators h2{
+       color: #2E6BE6;
+       padding-bottom: 10px;
+       text-transform: uppercase;
+   }
+   div.TE_generators{
+     text-align: center;
+       color: #ffffff;
+       margin: 30px;
+   }
+
+   section.thermal_energy{
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-around;
+   }
+
+   div.txt_thermal h2{
+       
+       font-size: 1.4rem;
+       padding-bottom: 10px;
+       text-transform: uppercase;
+       color: #2E6BE6;
+       padding-bottom: 10px;
+   }
+
+   div.txt_thermal{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+      height: 220px;
+    margin-top: 100px;
+      
+   }
+   div.txt_thermal p{
+       font-size: 1.2rem;
+       margin-left: 30px;
+       margin-right: 30px;
+       text-align: center;
+       color: #ffffff;
+    }
+    div.img_thermal{
+        display: flex;
+        flex-wrap: wrap;
+        width: auto;
+        justify-content: center;
+        margin-left: 110px;
+    }
+
+
+
+   section.ice{
+       padding-top: 120px;
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-around;
+   }
+   div.img_ice{
+    justify-content: center;
+}
+
+   div.title_ice h3{
+       color: #2E6BE6;
+       font-size: 1.4rem;
+       text-align: center;
+   }
+   div.title_ice p{
+       color: #77B5FE;
+       /* margin-left: 30px;
+       margin-right: 30px; */
+       /* padding-top: 15px; */
+       font-size: 1.2rem;
+       color: #ffffff;
+       text-align: center;
+       margin: 30px;
+   }
+   
+  
+
+ /* ************************helios****************************************** */
+ header nav{
+    background: #FF5B1B; 
+   position: fixed;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+padding: 19.5px;
+height: 70px;
+width: 98%;  
+}
+header.Hélios{
+    background: url("../images/thinkstockphotos475654220.jpg");height: 700px; width: auto;
+    background-position: center; 
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-around;  
+}
+nav.navigation{
+   width: 100%;
+}
+div.onglets{
+   margin-right: 40px;
+}
+
+header nav a{
+   color: #ffffff;
+    text-decoration: none; 
+    margin-right: 10px;  
+    font-size: 1.2rem;
+ 
+}
+div.onglets a:hover {
+   color: #002060;
+   border-bottom: 1px solid #2E6BE6;
+  
+}
+
+div.logo {
+   height: 55px;
+   background-color: #fdfafa;
+   border-radius: 15px;
+   
+   
+}
+div.logo img{
+   height: 85px;
+   margin-top: -5px;
+} 
+div.img_hélios{
+    display: flex;
+    flex-wrap: wrap;
+    width: auto;
+    justify-content: space-around;
+    margin: auto;
+    
+} 
+
+  .txt_helios h1{
+      text-align: center;
+     text-transform: uppercase;
+      color: #FF5B1B;
+      padding-top: 120px;
+      font-size: 2rem;
+  }
+
+ .sidebare_hélios{
+    margin-right: 1075px;
+    font-weight: normal;
+ } 
+ 
+     
+ 
+
+  .txt_helios p{
+color: #ffffff;
+font-size: 1.2rem;
+text-align: center;
+  }
+  div.description{
+    color: #ffffff;
+font-size: 1.2rem;
+text-align: left;
+margin: 30px; ; 
+  }
+
+  section.appli_markets{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      padding-top: 120px;
+  }
+  div.img_appli{
+width: 1000px;
+  }
+
+  div.applications{
+      padding-bottom: 30px;
+      text-align: center;
+      color: #FF5B1B;
+      text-transform: uppercase;
+  }
+ 
+  section.customer_benefits{
+       display: flex;
+       flex-wrap: wrap;
+       /* margin-left: 150px; */
+       justify-content: space-around;
+       padding-top: 120px;
+   }
+   
+   div.customer_info p{
+color: #ffffff;
+font-size: 1.2rem;
+text-decoration: none;
+   }
+   div.customer_info h1{
+    color: #FF5B1B;
+    text-transform: uppercase;  
+   }
+   div.image_ben{
+       width: 400px;
+   }
+    div.a_partners{
+margin-top: 120px;
+text-align: center;
+color: #FF5B1B;
+text-transform: uppercase;
+   }
+   div.images_partners{
+       display: flex;
+       flex-wrap: wrap;
+       padding-top: 80px;
+       justify-content: space-between;
+   }
+   li.a_p1{
+       margin-left: 90px;
+   }
+   li.a_p2{
+       margin-right: 120px;
+   } 
+
+   section.support{
+       margin-top: 90px;
+     text-align: center;
+   }
+   .support h1{
+       color: #FF5B1B;
+       text-transform: uppercase;
+
+   }
+
+  /* *****************************page produit*********************************** */
+header.products{
+    background: url("../images/MR-Engine1_LEAP1_CFM.jpg");height: 900px; 
+  
+    background-repeat: no-repeat;
+}
+
+/* ******************************page contact******************************** */
+header.contact{
+    background: url("../images/architecture-3121009_1280.jpg"); width: 100%;
+}
+
+ 
+   /* @media screen and (max-width: 1160px) { */
+       /* ****************philosophie******************* */
+       /* section.philosophie {
+            justify-content: space-around;
+       }
+       .gauche1 p{
+            width: 100%; 
+          padding-bottom: 30px;
+       } */
+       
+/* *****************************priorités****************************** */
+       /* section.priorité{
+        justify-content: center;  
+       }
+         div.droite2{
+            padding-top: 30px;
+        }
+.droite2 p{
+    width: 100%;
+    margin: auto;
+} */
+/* ******************************************transition******************** */
+ /* section.transition{
+             justify-content: center;
+}
+.droite3{
+    margin-bottom: 30px;
+}
+ .droite3 p{
+             width: 100%;
+         } */
+/* **************************************notretechnologie*********************** */
+/* section.technologie {
+    justify-content: center;
+}
+div.droite4{
+    margin-top: 30px;
+}
+.droite4 p{
+    width: 100%;
+    margin: auto;
+} */
+/* **************************apropos**************************************** */
+/* section.a_propos{
+    justify-content: center;
+}
+div.droite5{
+    margin-bottom: 30px;
+}
+.droite5 p{
+    width: 100%;
+}
+   } */
+
+   /* ******************************610px************************************ */
+
+   /* @media screen and (max-width: 610px) {
+    header nav{
+        height: auto;
+    }
+    .gauche1 p{
+        width: auto;
+    }
+   } */ 
